@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Тестовое задание</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container_slide">
+		<header class="menu_bar">
+		<nav>
+			<ul class="menu">
+				<li class="menu__item"><a href="#"><img class="logo__img" src="img/logo.png" alt="LogoImage"></a></li>
+				<li class="menu__item"><a href="#">Menu1</a></li>
+				<li class="menu__item"><a href="#">Menu2</a></li>
+				<li class="menu__item"><a href="#">Menu3</a></li>
+				<li class="menu__item"><a href="#">Help button</a></li>
+			</ul>
+			<ul class="responsive_menu">
+				<li class="menu__item">
+					<div class="container_menu_icon" onclick="SlideMenuAnimation(this)">
+						<div class="menu__icon"></div>
+					</div>
+				</li>
+				<li class="menu__item"><a href="#"><img class="logo__img" src="img/logo.png" alt="LogoImage"></a></li>
+				<li class="menu__item"><a href="#"><li class="menu__item"><a href="#">Help button</a></li></a></li>
+			</ul>
+			<ul class="slide__menu">
+				<li class="slide_menu__item"><a href="#">Menu1</a></li>
+				<li class="slide_menu__item"><a href="#">Menu2</a></li>
+				<li class="slide_menu__item"><a href="#">Menu3</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="main_content">
+		<div class="block1">
+			<div class="container__block1">
+				<h2>Block 1</h2>
+				<p>250px</p>
+			</div>
+		</div>
+		
+		<div class="block2">
+			<h1>Block 2</h1>
+			<article counter = "0" class="article__block2" onclick="ChangeColor(this)">
+					<img src="img/team1.png" alt="">
+					<p class="text__article">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem illo magni sed commodi magnam molestiae et voluptas dolores? Nihil ratione porro magnam repellat esse veritatis sint vel, laboriosam totam veniam.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem illo magni sed commodi magnam molestiae et voluptas dolores? Nihil ratione porro magnam repellat esse veritatis sint vel, laboriosam totam veniam.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem illo magni sed commodi magnam molestiae et voluptas dolores? Nihil ratione porro magnam repellat esse veritatis sint vel, laboriosam totam veniam.
+					</p>
+			</article>
+			<article counter = "0" class="article__block2" onclick="ChangeColor(this)">
+					<img src="img/team1.png" alt="">
+					<p class="text__article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem illo magni sed commodi magnam molestiae et voluptas dolores? Nihil ratione porro magnam repellat esse veritatis sint vel, laboriosam totam veniam.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem illo magni sed commodi magnam molestiae et voluptas dolores? Nihil ratione porro magnam repellat esse veritatis sint vel, laboriosam totam veniam</p>
+			</article>
+			<article counter = "0" class="article__block2" onclick="ChangeColor(this)">
+					<img src="img/team1.png" alt="">
+					<p class="text__article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem illo magni sed commodi magnam molestiae et voluptas dolores? Nihil ratione porro magnam repellat esse veritatis sint vel, laboriosam totam veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem illo magni sed commodi magnam molestiae et voluptas dolores? Nihil ratione porro magnam repellat esse veritatis sint vel, laboriosam totam veniam
+					</p>
+			</article>
+			<article counter = "0" class="article__block2" onclick="ChangeColor(this)">
+					<img src="img/team1.png" alt="">
+					<p class="text__article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem illo magni sed commodi magnam molestiae et voluptas dolores? Nihil ratione porro magnam repellat esse veritatis sint vel, laboriosam totam veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</p>
+			</article>
+		</div>
+		<div class="block3">
+			<div class="container__block3">
+				<h2>Block 3</h2>
+				<p>200px</p>
+			</div>
+		</div>
+	</section>
+	</div>
+		
+	
+
+	<script src="js/main.js">
+	</script>
+</body>
+</html>
